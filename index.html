@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">-->
+
+
+    <link rel="stylesheet" href="style.css">
+    <title>Quiz Application</title>
+
+</head>
+
+<body>
+
+
+    <p id="countdown"></p>
+    <div class="quiz-container" id="quiz">
+        <div class="quiz-header">
+            <h2 id="question">This question reveals itself when you click start!</h2>
+            <ul>
+                <li>
+                    <input type="radio" name="answer" id="a" class="answer">
+                    <label for="a" id="a_text">Click "Start"</label>
+                </li>
+                <li>
+                    <input type="radio" name="answer" id="b" class="answer">
+                    <label for="b" id="b_text">Click "Start"</label>
+                </li>
+                <li>
+                    <input type="radio" name="answer" id="c" class="answer">
+                    <label for="c" id="c_text">Click "Start"</label>
+                </li>
+                <li>
+                    <input type="radio" name="answer" id="d" class="answer">
+                    <label for="d" id="d_text">Click "Start"</label>
+                </li>
+            </ul>
+        </div>
+        <button id="start-btn" class="start-btn">Click Here to Start the Quiz</button>
+        <button id="submit" class="hide">Submit Your Answer Here!</button>
+
+    </div>
+    <!--<div>
+        <h4>Add your Initials for the highscore!</h4>
+        <input type="text">
+        <button class="btn2">SEND IT!</button>
+    </div>-->
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
